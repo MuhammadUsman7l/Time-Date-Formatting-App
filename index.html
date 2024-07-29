@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Formating App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Date and Time Formating</h1>
+      <img src="/Images/Time.webp" alt="404" />
+      <div class="right-bar">
+        <div class="dropdown">
+          <button>Time Formating</button>
+          <div class="dropdown-content">
+            <a href="#" id="h12">12-Hours Format</a>
+            <a href="#" id="h24">24-Hours Format</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button>Date Formating</button>
+          <div class="dropdown-content">
+            <a href="#" id="d1">dd-mm-yyyy</a>
+            <a href="#" id="m1">mm-dd-yyyy</a>
+            <a href="#" id="y1">yyyy-mm-dd</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button>Date & Time Formating</button>
+          <div class="dropdown-content">
+            <a href="#" id="d12">dd-mm-yyyy/12-Hours Format</a>
+            <a href="#" id="m12">mm-dd-yyyy/12-Hours Format</a>
+            <a href="#" id="y12">yyyy-mm-dd/12-Hours Format</a>
+            <a href="#" id="d24">dd-mm-yyyy/24-Hours Format</a>
+            <a href="#" id="m24">mm-dd-yyyy/24-Hours Format</a>
+            <a href="#" id="y24">yyyy-mm-dd/24-Hours Format</a>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <p class="text-box" id="text"></p>
+      </div>
+      <div class="output">
+        <p class="output-terminal" id="output"></p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
